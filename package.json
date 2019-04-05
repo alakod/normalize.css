@@ -2,7 +2,7 @@
   "name": "normalize.css",
   "version": "1.0.0",
   "description": "A modern normalize browsers default style and flat css alternative to CSS resets",
-  "main": "index.js",
+  "main": "normalize.css",
   "scripts": {
     "test": "stylelint normalize.css"
   },

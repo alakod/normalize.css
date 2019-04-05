@@ -18,16 +18,15 @@ A modern normalize browsers default style alternative to CSS resets
 * Safari 8+
 * Opera
 
-## Usage
-
-```css
-@import 'node_modules/normalize.css/normalize.css';
-```
-
-
 ## Install
 
 ```
 $ npm install --save normalize.css
 
+```
+
+## Usage
+
+```css
+@import 'node_modules/normalize.css/normalize.css';
 ```

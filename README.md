@@ -17,16 +17,3 @@ A modern normalize browsers default style alternative to CSS resets
 * Internet Explorer 10+
 * Safari 8+
 * Opera
-
-## Install
-
-```
-$ npm i normalize-flat.css
-
-```
-
-## Usage
-
-```css
-@import 'node_modules/normalize.css/normalize.css';
-```

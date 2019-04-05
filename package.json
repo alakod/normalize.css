@@ -1,0 +1,42 @@
+{
+	"name": "normalize.css",
+	"version": "1",
+	"description": "A modern normalize browsers default style alternative to CSS resets",
+	"license": "MIT",
+	"repository": "alakod/normalize.css",
+	"author": {
+		"name": "ALA KOD",
+		"email": "repository@alakod.com",
+		"url": "alakod.com"
+	},
+	"main": "normalize.css",
+	"style": "normalize.css",
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "stylelint normalize.css"
+	},
+	"files": [
+		"normalize.css"
+	],
+	"keywords": [
+		"normalize",
+		"css",
+		"reset",
+		"browser",
+		"style"
+	],
+	"devDependencies": {
+		"stylelint": "^9.3.0",
+		"stylelint-config-xo": "^0.9.0"
+	},
+	"stylelint": {
+		"extends": "stylelint-config-xo",
+		"rules": {
+			"no-duplicate-selectors": null,
+			"no-descending-specificity": null,
+			"property-no-vendor-prefix": null
+		}
+	}
+}

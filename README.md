@@ -21,7 +21,7 @@ A modern normalize browsers default style alternative to CSS resets
 ## Install
 
 ```
-$ npm install --save normalize.css
+$ npm i normalize-flat.css
 
 ```
 
